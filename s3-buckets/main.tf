@@ -1,12 +1,12 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "us-east-2"
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "hotstaarumullaas"
+  bucket = "keshav-my-bk1"
 
   tags = {
-    Name        = "hotstaarumullaas"
+    Name        = "hotstar-kdb"
     Environment = "dev"
   }
 }
@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "hotstaalurus"
+  bucket = "keshav-my-bk2"
 
   tags = {
-    Name        = "hotstaalurus"
+    Name        = "hotstar-kdb"
     Environment = "dev"
   }
 }
