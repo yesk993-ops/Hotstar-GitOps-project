@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "bucket2" {
   bucket = "keshav-my-bk2"
 
   tags = {
-    Name        = "hotstar-kdb"
+    Name        = "hotstar-keshav"
     Environment = "dev"
   }
 }
